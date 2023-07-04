@@ -4,7 +4,7 @@ import { RecognitionStatus } from "../enums/index.ts";
 import { useSpeechRecognition } from "../hooks/index.ts";
 import { signal } from "https://esm.sh/*@preact/signals@1.1.3";
 import { useToggle } from "../hooks/useToggle.hook.ts";
-import "../node_modules/lostjs/common/index.js";
+import "npm:lostjs/common/index.js";
 
 interface IProps {
   privateKey: string;
