@@ -10,7 +10,7 @@ import { start } from "$fresh/server.ts";
 import manifest from "./fresh.gen.ts";
 import twindPlugin from "$fresh/plugins/twind.ts";
 import twindConfig from "./twind.config.ts";
-import "npm:lostjs/common/index.js";
+import "./node_modules/lostjs/common/index.js";
 
 await start(manifest, {
   experimentalDenoServe: true,
