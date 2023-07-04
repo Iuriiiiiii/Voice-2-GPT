@@ -1,6 +1,6 @@
 import { Ref, useEffect, useId, useState } from "preact/hooks";
 import { useGPT35 } from "../hooks/index.ts";
-import { ChatCompletionStream } from "../libs/types.ts";
+import { ChatCompletionStream } from "../libs/openai/types.ts";
 import { stopSignal } from "../islands/Listener.tsx";
 import { useSignal } from "@preact/signals";
 

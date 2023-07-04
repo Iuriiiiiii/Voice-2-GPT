@@ -1,3 +1,3 @@
-import { ChatCompletionStream } from "../libs/types.ts";
+import { ChatCompletionStream } from "../libs/openai/types.ts";
 
 export type GPT35StreamCallback = (chunk: ChatCompletionStream) => boolean;
